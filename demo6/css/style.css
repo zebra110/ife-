@@ -1,0 +1,351 @@
+body {
+    width: 980px;
+    height: 1386px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 5px #eee;
+    border: 1px solid #c0c0c0;
+}
+
+.main {
+    width: 892px;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+    height: 61px;
+}
+
+.header .com {
+    width: 110px;
+    height: 61px;
+    background: #D55D5C;
+    float: left;
+}
+
+.com p {
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "SimHei";
+}
+
+.header .time {
+    position: relative;
+    float: right;
+    font-size: 12px;
+    color: #d45d5c;
+    margin-top: 45px;
+    margin-right: 10px;
+}
+
+.top_hr {
+    border: 1px #938e8c solid;
+    margin-top: 0px;
+}
+
+.space {
+    height: 15px;
+}
+
+.text {
+    float: right;
+    width: 203px;
+    height: 301px;
+    position: relative;
+}
+
+.words_block_hr {
+    position: absolute;
+    width: 203px;
+    border: 2px #cc8091 solid;
+    margin-top: 0px;
+}
+
+.title_form {
+    position: absolute;
+    border-bottom: 2px solid grey;
+    float: left;
+    margin-top: 0px;
+    height: 40px;
+}
+
+.words_block_p_lg {
+    font-size: 18px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.p_sm {
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.title_form2 {
+    position: absolute;
+    border-bottom: 2px solid grey;
+    float: left;
+    margin-top: 40px;
+    height: 40px;
+}
+
+.small_words {
+    float: left;
+    font-family: "KaiTi";
+    font-size: 12px;
+    color: #676767;
+    line-height: 10px;
+    margin-top: 70px;
+}
+
+.number_700 {
+    position: absolute;
+    font-size: 116px;
+    color: #75b86b;
+    font-family: "Microsoft YaHei";
+    font-style: italic;
+    margin-left: -18px;
+}
+
+.number_3 p {
+    position: absolute;
+    font-family: 'Microsoft YaHei', 'Microsoft YaHei UI';
+    font-size: 55px;
+    color: #cc8091;
+    margin-top: 240px;
+}
+
+.css_words p {
+    position: absolute;
+    font-size: 21px;
+    color: #cc8091;
+    margin-top: 270px;
+    margin-left: 85px;
+    font-weight: bold;
+}
+
+.css_words_sm p {
+    font-size: 12px;
+    color: rgba(155, 155, 155, 1.00);
+    margin-top: 290px;
+    margin-left: 85px;
+}
+
+.photo {
+    width: 641px;
+    height: 301px;
+    background-color: red;
+    float: left;
+}
+
+.shadow_right {
+    width: 191px;
+    height: 301px;
+    background-color: rgba(235, 153, 153, 0.60);
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
+.shadow_left {
+    width: 191px;
+    height: 301px;
+    background-color: rgba(49, 111, 77, 0.60);
+    float: left;
+    position: absolute;
+    z-index: 1;
+}
+
+.about {
+    overflow: hidden;
+}
+
+.index {
+    width: 641px;
+    height: 220px;
+    /*background-color: green;*/
+    position: relative;
+    /*border: 1px red solid;*/
+}
+
+.what,
+.when {
+    width: 30%;
+    height: 100%;
+    margin-right: 20px;
+    float: left;
+    /*border: 1px red solid;*/
+    text-decoration: underline;
+}
+
+.how {
+    width: 30%;
+    height: 100%;
+    float: left;
+    /*border: 1px red solid;*/
+}
+
+.title {
+    text-decoration: underline;
+    font-weight: bold;
+    width: 100%;
+}
+
+.what .title {
+    color: #b6cebe;
+}
+
+.when .title {
+    color: #d3994f;
+}
+
+.how .title {
+    color: #e6c8c8;
+}
+
+.content {
+    font-size: 12px;
+    margin-top: 5px;
+    width: 100%;
+    line-height: 16px;
+    letter-spacing: 3px;
+}
+
+.how ul {
+    list-style: none;
+}
+
+.how ul li span {
+    color: #e6c8c8;
+}
+
+.the {
+    height: 670px;
+    width: 100%;
+    /*background: red;*/
+    margin-top: 50px;
+}
+
+.name {
+    /*background-color: green;*/
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+.name {
+    font-size: 37px;
+    color: #10456d;
+    /*font-weight: bold;*/
+}
+
+.name span {
+    font-size: 62px;
+    color: #f6e229;
+    margin: 0 20px 0 5px;
+    font-style: italic;
+}
+
+.name hr {
+    border: 1px #10456d solid;
+    margin-top: -25px;
+}
+
+.name p {
+    margin-top: 0;
+}
+
+.imgqian {
+    background-color: red;
+    height: 275px;
+    width: 46%;
+    float: left;
+    position: relative;
+    margin-left: 4%;
+}
+
+.jieshao {
+    background-color: white;
+    height: 61px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.5;
+}
+
+#shao {
+    color: #72b16a;
+    margin: 0 20px;
+    line-height: 61px;
+    font-size: 30px;
+}
+
+#duo {
+    font-style: italic;
+    font-size: 16px;
+    color: #72b16a;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+.sm {
+    /*clear: both;*/
+    width: 50%;
+    height: auto;
+    margin-top: -100px;
+    float: left;
+}
+
+.sm img {
+    display: block;
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    float: right;
+}
+
+.sm p span {
+    font-size: 40px;
+    color: #f6e229;
+}
+
+.sm p {
+    margin-top: -20px;
+    background: red;
+    /*margin-right: 20px;*/
+}
+
+.dian {
+    width: 46%;
+    height: 350px;
+    background-color: green;
+    float: right;
+    /*margin-left: 10px;*/
+    position: relative;
+}
+
+.dian p {
+    margin: 30px 40px;
+}
+
+.leftc {
+    width: 60%;
+    height: 150px;
+    background-color: pink;
+    position: absolute;
+    bottom: 0;
+    float: left;
+}
+
+.rightc {
+    width: 40%;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

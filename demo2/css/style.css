@@ -1,0 +1,41 @@
+#content:after{
+  content: '';        /*8*/
+  display: block;     /*8*/
+  clear: both;        /*8*/
+}
+#content{
+  padding: 30px 400px 30px 340px;
+
+  background-color: #eee;
+  height: auto;
+  margin: 30px;
+}
+.aside, .main, .extra{
+  float: left;
+}
+
+.aside{
+  width: 300px;
+  height: 300px;
+    border: 1px #999 solid;
+  margin-left:-100%;
+  position: relative;
+  left: -310px;
+  background-color: white;
+
+}
+.extra{
+  width: 350px;
+  height: 700px;
+  border: 1px #999 solid;
+  margin-left: -354px;
+  position: relative;
+  left: 360px;
+  background-color: white;
+}
+.main{
+  height: 550px;
+background-color: white;
+  border: 1px #999 solid;
+  width: 100%;
+}

@@ -1,0 +1,159 @@
+body{
+  margin:0 auto;
+  padding: 0;
+  background: gray;
+
+}
+.main{
+  width: 80%;
+  margin:0 auto;
+}
+nav {
+  width: 100%;
+    margin:0 auto;
+  background-color: black;
+}
+
+nav h1{
+  float: left;
+  color: white;
+  margin: 20px 20px;
+}
+nav ul {
+  float: right;
+
+}
+nav ul li {
+  float: left;
+  margin: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+/*----导航结束----*/
+header{
+  margin: 0 auto;
+  /*background-color: gray;*/
+  /*height: 941px;*/
+  /*box-shadow: 0px 0px 5px black;*/
+}
+main {
+  border: 3px solid red;
+  margin: 35px 35px;
+  padding: 18px;
+  background-color: white;
+}
+main *{
+  padding: 8px;
+}
+main h3 {
+  color: gray;
+  font-size: 14px;
+}
+
+main span {
+  font-size: 12px;
+}
+
+.ul{
+  list-style-type: none;
+}
+.main3 div{
+  border: 5px solid black;
+  margin: 50px;
+  width: 200px;
+}
+
+.main3 div{
+  text-align: center;
+}
+
+
+
+.main3 div img{
+  display: inline-block;
+  height: 40px;
+  width: 100px;
+}
+
+.last ol{
+  margin: 30px;
+  font-weight: bold;
+}
+
+.last table{
+  width: 100%;
+}
+/*.last table tr th:nth-child(2n+1){
+  width: 20%;
+}*/
+.last table tr th{
+  background: black;
+  color: white;
+}
+.last table tr th:nth-child(1), .last table tr th:nth-child(2){
+  width: 40%;
+}
+.last table tr:nth-last-child(1){
+  background: gray;
+  font-weight: bold;
+}
+.footerh4 span {
+  color: rgb(204, 204, 204);
+  	font-weight: 500;
+  	font-size: 40px;
+  	margin: 0 10px;
+}
+
+
+
+.left {
+  width: 1300px;
+  float: left;
+}
+
+.right {
+	/*float: right;
+	width: 460px;
+  display: inline;*/
+  /*margin-left: 1400px;
+  height: auto;
+  position: absolute;
+  top:0px;*/
+  overflow: hidden;
+}
+
+#table2{
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+#table2 th {
+	text-align: right;
+}
+#table2 td {
+	text-align: left;
+}
+#table2 p {
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+#subm{
+  background-color: rgb(51,85,208);
+  width: 100%;
+  text-align: center;
+font-size: 20px;
+color: white;
+border-radius: 13px;
+}
+footer{
+  text-align: center;
+  color: lightblack;
+}
